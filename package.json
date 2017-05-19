@@ -1,0 +1,30 @@
+{
+  "name": "fps-game-server-3",
+  "version": "0.0.1",
+  "description": "a test application",
+  "engines": {
+    "node": "6.10.3"
+  },
+  "main": "peer.js",
+  "scripts": {
+    "start": "node peer.js" 
+  },
+  "dependencies": {
+    "wrtc": "0.0.61",
+    "ws": "^2.0.2",
+	"simple-peer": "8.1.0",
+	"express": "4.15.3",
+	"socket.io": "2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/fps-game-server.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "socket.io"
+  ],
+  "license": "MIT"
+}
